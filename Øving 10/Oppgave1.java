@@ -27,8 +27,7 @@ class Oppgave1 {
                     int nummer;
                     long tidspunkt;
                     try {nummer = Integer.parseInt(input[0]);} catch (NumberFormatException e) {System.out.println("Error ocurred --> returning 0"); nummer = 0;}
-                    try {tidspunkt = Long.parseLong(input[0]);} catch (NumberFormatException e) {System.out.println("Error ocurred --> returning 0"); tidspunkt = 0;}
-
+                    try {tidspunkt = Long.parseLong(input[5]);} catch (NumberFormatException e) {System.out.println("Error ocurred --> returning 0"); tidspunkt = 0;}
 
                     register.registrerArrangement(nummer,input[1],input[2],input[3],input[4],tidspunkt);
                     System.out.println("\n" + register);
