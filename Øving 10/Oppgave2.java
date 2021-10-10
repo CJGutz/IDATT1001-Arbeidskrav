@@ -13,7 +13,7 @@ import java.awt.Dimension;
 class Oppgave2 {
 
     static ArrayList<JComboBox<String>> rettValger;
-    static String[] TYPER = {"Antipasto", "Brunsj", "Dessert", "Forett", "Frokost", "Hovedrett", "Lunsj", "Primi Piatti", "Side", "Vegetar", "Vegan"};
+    static final String[] TYPER = {"Antipasto", "Brunsj", "Dessert", "Forett", "Frokost", "Hovedrett", "Lunsj", "Primi Piatti", "Side", "Vegetar", "Vegan"};
 
     public static void main(String[] args) {
 
